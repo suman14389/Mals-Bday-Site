@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: orange;
+}
+
+.tab-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tab-item {
+    margin: 0 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.leftbar {
+flex: 1;
+}
+
+.rightbar {
+  flex:1;
+}
