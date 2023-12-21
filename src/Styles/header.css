@@ -1,8 +1,9 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 40px;
     background-color: orange;
+    
 }
 
 .tab-list {
@@ -14,12 +15,13 @@
     margin: 0 20px;
     padding-right: 20px;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .leftbar {
-flex: 1;
+
 }
 
 .rightbar {
-  flex:1;
+
 }

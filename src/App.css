@@ -2,20 +2,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 .app-container {
-
+  height: 92vh;
 }
 
 .main-container {
-  padding: 100px;
+  
   display: flex;
-  flex:2;
+  background: linear-gradient(to right, rgb(84, 182, 214), rgb(131, 199, 131));
 }
 
 .body {
-  display: flex;
- 
-  
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 10px;
+  height: 100%;
 }
